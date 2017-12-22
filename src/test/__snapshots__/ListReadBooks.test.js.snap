@@ -1,0 +1,92 @@
+exports[`<ListReadBooks/> should render MyReads in h1 1`] = `
+<div
+  className="list-books">
+  <div
+    className="list-books-title">
+    <h1>
+      MyReads
+    </h1>
+  </div>
+  <div
+    className="list-books-content">
+    <div>
+      <BookShelf
+        books={
+          Array [
+            Object {
+              "id": 0,
+              "imageLinks": Object {
+                "thumbnail": "url/test/enzime",
+              },
+              "shelf": "read",
+              "title": "React",
+            },
+            Object {
+              "id": 1,
+              "imageLinks": Object {
+                "thumbnail": "url/test/enzime",
+              },
+              "shelf": "read",
+              "title": "React Native",
+            },
+          ]
+        }
+        key="read"
+        title="read" />
+      <BookShelf
+        books={
+          Array [
+            Object {
+              "id": 0,
+              "imageLinks": Object {
+                "thumbnail": "url/test/enzime",
+              },
+              "shelf": "read",
+              "title": "React",
+            },
+            Object {
+              "id": 1,
+              "imageLinks": Object {
+                "thumbnail": "url/test/enzime",
+              },
+              "shelf": "read",
+              "title": "React Native",
+            },
+          ]
+        }
+        key="wantToRead"
+        title="wantToRead" />
+      <BookShelf
+        books={
+          Array [
+            Object {
+              "id": 0,
+              "imageLinks": Object {
+                "thumbnail": "url/test/enzime",
+              },
+              "shelf": "read",
+              "title": "React",
+            },
+            Object {
+              "id": 1,
+              "imageLinks": Object {
+                "thumbnail": "url/test/enzime",
+              },
+              "shelf": "read",
+              "title": "React Native",
+            },
+          ]
+        }
+        key="continueRead"
+        title="continueRead" />
+    </div>
+  </div>
+  <div
+    className="open-search">
+    <Link
+      onClick={[Function]}
+      replace={false}
+      to="/search" />
+  </div>
+</div>
+`;

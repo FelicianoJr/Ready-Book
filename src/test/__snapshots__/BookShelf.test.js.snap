@@ -1,0 +1,38 @@
+exports[`<BookShelf/> should contain the title passed as props 1`] = `
+<BookShelf
+  books={
+    Array [
+      Object {
+        "id": 0,
+        "imageLinks": Object {
+          "thumbnail": "url/test/enzime",
+        },
+        "shelf": "read",
+        "title": "React",
+      },
+      Object {
+        "id": 1,
+        "imageLinks": Object {
+          "thumbnail": "url/test/enzime",
+        },
+        "shelf": "read",
+        "title": "React Native",
+      },
+    ]
+  }
+  title="Read"
+  update={[Function]}>
+  <div
+    className="bookshelf">
+    <h2
+      className="bookshelf-title">
+      Read
+    </h2>
+    <div
+      className="bookshelf-books">
+      <ol
+        className="books-grid" />
+    </div>
+  </div>
+</BookShelf>
+`;

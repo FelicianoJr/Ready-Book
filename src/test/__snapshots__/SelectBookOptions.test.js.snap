@@ -1,0 +1,27 @@
+exports[`<SelectBookOptions/> when simulating a change, select should update its value 1`] = `
+<select
+  onChange={[Function]}
+  value="read">
+  <option
+    disabled={true}
+    value="">
+    Move to...
+  </option>
+  <option
+    value="currentlyReading">
+    Currently Reading
+  </option>
+  <option
+    value="wantToRead">
+    Want to Read
+  </option>
+  <option
+    value="read">
+    Read
+  </option>
+  <option
+    value="">
+    None
+  </option>
+</select>
+`;

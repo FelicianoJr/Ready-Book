@@ -1,0 +1,79 @@
+exports[`<BookDetail/> should contain the imageLinks passed as props 1`] = `
+<BookDetail
+  book={
+    Object {
+      "id": 0,
+      "imageLinks": Object {
+        "thumbnail": "url/test/enzime",
+      },
+      "shelf": "read",
+      "title": "React",
+    }
+  }
+  update={[Function]}>
+  <li>
+    <div
+      className="book">
+      <div
+        className="book-top">
+        <div
+          className="book-cover"
+          style={
+            Object {
+              "backgroundImage": "url(url/test/enzime)",
+              "height": 193,
+              "width": 128,
+            }
+          } />
+        <div
+          className="book-shelf-changer">
+          <SelectBookOptions
+            book={
+              Object {
+                "id": 0,
+                "imageLinks": Object {
+                  "thumbnail": "url/test/enzime",
+                },
+                "shelf": "read",
+                "title": "React",
+              }
+            }
+            update={[Function]}>
+            <select
+              onChange={[Function]}
+              value="read">
+              <option
+                disabled={true}
+                value="">
+                Move to...
+              </option>
+              <option
+                value="currentlyReading">
+                Currently Reading
+              </option>
+              <option
+                value="wantToRead">
+                Want to Read
+              </option>
+              <option
+                value="read">
+                Read
+              </option>
+              <option
+                value="">
+                None
+              </option>
+            </select>
+          </SelectBookOptions>
+        </div>
+      </div>
+      <div
+        className="book-title">
+        React
+      </div>
+      <div
+        className="book-authors" />
+    </div>
+  </li>
+</BookDetail>
+`;
